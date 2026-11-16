@@ -1,0 +1,23 @@
+{
+  "scope": "Set the deliverable scope and distinguish a technical demo from production artwork",
+  "geometry_sha256": null,
+  "artwork_sha256": null,
+  "files": {},
+  "automated": {
+    "dimensions_and_source_overlay": {"status": "pending", "evidence": null},
+    "no_raster_content": {"status": "pending", "evidence": null},
+    "layer_isolation": {"status": "pending", "evidence": null},
+    "geometry_and_mesh_holes": {"status": "pending", "evidence": null},
+    "camera_all_frames": {"status": "pending", "evidence": null},
+    "video_decode": {"status": "pending", "evidence": null}
+  },
+  "visual": {
+    "all_faces_and_text": {"status": "pending", "evidence": null},
+    "complete_video_review": {"status": "pending", "evidence": null},
+    "portable_blender_reopen": {"status": "pending", "evidence": null}
+  },
+  "production": {
+    "printer_preflight": {"status": "pending", "reason": "Requires target print conditions and preflight"},
+    "physical_fit": {"status": "pending", "reason": "Requires a paper sample including thickness, glue and closure"}
+  }
+}

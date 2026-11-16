@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "boxcreator"
+version = "0.1.0"
+description = "An agent playbook and geometry toolkit for dieline PDF to vector packaging and Blender video"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = ["pypdf>=5,<8", "reportlab>=4,<5", "shapely>=2.1,<3", "Pillow>=10,<13"]
+
+[project.optional-dependencies]
+video = ["imageio-ffmpeg>=0.5,<0.7"]
+
+[project.scripts]
+boxcreator = "boxcreator.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+boxcreator = ["blender_scene.py"]
